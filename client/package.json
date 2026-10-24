@@ -1,0 +1,23 @@
+{
+  "name": "old-enough-client",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local Noir/Barretenberg proving client for the Old Enough late-night pass",
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "context": "node claim.mjs context",
+    "prove": "node claim.mjs prove",
+    "verify": "node claim.mjs verify",
+    "submit": "node claim.mjs submit",
+    "claim": "node claim.mjs claim",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@aztec/bb.js": "5.2.1",
+    "@noir-lang/noir_js": "1.0.0-rc.5",
+    "viem": "2.57.11"
+  }
+}

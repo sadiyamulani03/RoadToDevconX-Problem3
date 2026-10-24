@@ -1,0 +1,28 @@
+# Noir / Barretenberg / Foundry build artifacts
+/target/
+/out/
+/cache/
+/broadcast/
+/coverage/
+
+# Local deployment records (keep the directory)
+/deployments/*.json
+
+# Client dependencies and generated local files
+/node_modules/
+/client/node_modules/
+/claim-context.json
+/proof.json
+/client/claim-context.json
+/client/proof.json
+
+# Local environment and key material
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Logs and OS files
+*.log
+.DS_Store

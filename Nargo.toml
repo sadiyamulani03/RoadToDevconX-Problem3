@@ -1,0 +1,8 @@
+[package]
+name = "old_enough"
+version = "1.0.0"
+type = "bin"
+authors = ["Old Enough contributors"]
+description = "Zero-knowledge age eligibility circuit for a late-night festival pass"
+
+[dependencies]
